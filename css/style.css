@@ -41,8 +41,11 @@ h1, h2, h4 {
     color: #082755;
     text-transform: capitalize;
 }
-h4 {
+h4, h4 a {
     color: #707070;
+}
+h4 a:hover {
+    text-decoration: underline;
 }
 .cta {
     color: white;
@@ -310,6 +313,7 @@ footer p {
 }
 .info li {
     padding-bottom: 1rem;
+    font-family: 'fira sans', san-serif;
 }
 .info ul {
   list-style: none;
@@ -324,6 +328,10 @@ footer p {
 }
 .underline {
     text-decoration: underline;
+}
+
+#employee a {
+    color: #707070;
 }
 /*media queires*/
 @media (min-width: 576px) {
