@@ -292,6 +292,16 @@ footer p {
 
 .dropdown:hover .dropbtn {background-color: #082755;}
 
+#download {
+    margin-bottom: 2rem;
+}
+#download a {
+    color: #707070;
+    border: 1px solid #707070;
+    padding: 5px 8px;
+    border-radius: 10px;
+    
+}
 .next {
     margin: 2rem 0;
 }
